@@ -1,11 +1,12 @@
-import React from 'react' 
+import React from 'react';
+import Link from 'next/link';
 import {Product, FooterBanner, HeroBanner} from '../Components'
 
 
 const Home = () => {
   return (
     <>
-      HeroBanner
+      <HeroBanner/>
       
       
       <div className='products-heading'>
@@ -18,7 +19,7 @@ const Home = () => {
         {['Product 1', 'Product 2'].map(
    (product)=>product)}
       </div>
-Footer
+<FooterBanner/>
     </>
   )
 }
