@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       </div>
 
 
-      <div>
+      <div className='product-container'>
         {['Product 1', 'Product 2'].map(
    (product)=>product)}
       </div>
